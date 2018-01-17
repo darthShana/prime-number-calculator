@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: prime-number-calculator--hpa
+  namespace: default
+spec:
+  scaleRef:
+    kind: Deployment
+    name: prime-number-calculator-deployment
+    subresource: scale
+  minReplicas: 1
+  maxReplicas: 3
+  cpuUtilization:
+    targetPercentage: 90

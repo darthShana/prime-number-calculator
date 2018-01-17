@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: prime-number-calculator-deployment
+spec:
+  template:
+    metadata:
+      labels:
+        app: prime-number-calculator
+    spec:
+      containers:
+      - name: prime-number-calculator
+        image: darthshana/prime-number-calculator:1.2-SNAPSHOT
+        ports:
+        - containerPort: 8080

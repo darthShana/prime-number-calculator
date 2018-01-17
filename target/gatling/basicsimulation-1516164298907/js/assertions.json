@@ -1,0 +1,10 @@
+{
+  "simulation": "primeNumberService.BasicSimulation",
+  "simulationId": "basicsimulation",
+  "start": 1516164298907,
+  "description": "null",
+  "scenarios": ["basic get prime numbers"],
+  "assertions": [
+
+  ]
+}

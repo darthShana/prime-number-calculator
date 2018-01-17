@@ -1,0 +1,4 @@
+com\twg\sample\Application.class
+com\twg\sample\model\PrimeNumberResponse.class
+com\twg\sample\rest\PrimeNumberController.class
+com\twg\sample\model\PrimeNumberCalculator.class
