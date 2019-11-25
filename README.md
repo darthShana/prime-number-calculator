@@ -8,6 +8,7 @@ clean up..
 4. delete old docker images of darthshana/prime-number-calculator
 5. ensure Kubernetes dashboard is working
 
+Presentation
 1. Introduce prime number calculator
 1.1 java / spring boot
 1.2 calculates prime numbers between 0 and provided number
