@@ -2,11 +2,11 @@
 Kubernetes Presentation
 
 clean up..
-kubectl delete hpa prime-number-calculator-deployment
-kubectl delete deployment prime-number-calculator-deployment
-kubectl delete service prime-number-service
-delete old docker images of darthshana/prime-number-calculator
-ensure Kubernetes dashboard is working
+1. kubectl delete hpa prime-number-calculator-deployment
+2. kubectl delete deployment prime-number-calculator-deployment
+3. kubectl delete service prime-number-service
+4. delete old docker images of darthshana/prime-number-calculator
+5. ensure Kubernetes dashboard is working
 
 1. Introduce prime number calculator
 1.1 java / spring boot
